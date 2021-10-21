@@ -1,0 +1,6 @@
+excel=pd.ExcelFile("C:/Users/Astrowest/Downloads/FinancialStatement-2021-I-AALI.xlsx")
+general_information= pd.read_excel(excel, '1000000')
+statement_of_financial_position= pd.read_excel(excel, '1210000')
+statement_of_profit_or_loss_and_other_comprehensive_income= pd.read_excel(excel, '1321000')
+statement_of_changes_in_equity= pd.read_excel(excel,'1410000 1 CurrentYear')
+statement_of_cashflows= pd.read_excel(excel, '1510000')
